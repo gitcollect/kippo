@@ -113,7 +113,7 @@ class HoneyPotSSHFactory(factory.SSHFactory):
         if cfg.has_option('honeypot', 'ssh_version_string'):
             t.ourVersionString = cfg.get('honeypot','ssh_version_string')
         else:
-            t.ourVersionString = "SSH-2.0-OpenSSH_5.1p1 Debian-5"
+            t.ourVersionString = "SSH-2.0-NetScreen"
 
         t.supportedPublicKeys = self.privateKeys.keys()
 
