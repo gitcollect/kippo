@@ -1,19 +1,8 @@
-NOTE: For more recent development, check out [Michel Oosterhof's fork](https://github.com/micheloosterhof/cowrie)
-
 # Kippo
 
 Kippo is a medium interaction SSH honeypot designed to log brute force attacks and, most importantly, the entire shell interaction performed by the attacker.
 
 Kippo is inspired, but not based on [Kojoney](http://kojoney.sourceforge.net/).
-
-## Demo
-
-Some interesting logs from a live Kippo installation below (viewable within a web browser with the help of Ajaxterm). Note that some commands may have been improved since these logs were recorded.
-
-  * [2009-11-22](http://kippo.rpg.fi/playlog/?l=20091122-075013-5055.log)
-  * [2009-11-23](http://kippo.rpg.fi/playlog/?l=20091123-003854-3359.log)
-  * [2009-11-23](http://kippo.rpg.fi/playlog/?l=20091123-012814-626.log)
-  * [2010-03-16](http://kippo.rpg.fi/playlog/?l=20100316-233121-1847.log)
 
 ## Features
 
