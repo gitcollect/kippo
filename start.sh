@@ -28,3 +28,5 @@ twistd --version
 
 echo "Starting kippo in the background..."
 twistd -y kippo.tac -l log/kippo.log --pidfile kippo.pid
+echo "Starting webUI in the background..."
+python http.py & echo $! >http.pid
