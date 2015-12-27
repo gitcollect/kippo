@@ -1,5 +1,6 @@
 kippo.cfg
 kippo.pid
+http.pid
 data/lastlog.txt
 data/ssh_host_dsa_key
 data/ssh_host_dsa_key.pub
